@@ -54,7 +54,7 @@ def test_purchase():
     postal_code_input.send_keys("98765")
     continue_button.click()
 
-    time.sleep(2)  # подождем загрузки страницы
+    time.sleep(10)  # подождем загрузки страницы
 
     # 6. Завершаем
     finish_button = driver.find_element(By.XPATH, "//button[text()='Finish']")
